@@ -35,33 +35,3 @@ Isosceles
 Two equal sides
 Scalene
 No equal sides
-
-
-Choice B - Glossary
-In this puzzle, you are required to store and display a list of words and descriptions to build a glossary of terms
-into a persistent data store. Whilst this puzzle is expected to take longer to complete than the Choice A puzzles it
-should give you the opportunity to demonstrate your flair for technology and your programming style. The
-choice of technology used to solve this puzzle is entirely at your discretion.
-Glossary Term Model
-Glossary
-Term The term of reference
-Definition A paragraph of text describing the meaning of the term.
-Sample Glossary
-Term Definition
-abyssal plain The ocean floor offshore from the continental margin, usually very flat with a slight
-slope.
-accrete v. To add terranes (small land masses or pieces of crust) to another, usually larger, land
-mass.
-alkaline Term pertaining to a highly basic, as opposed to acidic, subtance. For example,
-hydroxide or carbonate of sodium or potassium.
-Stories
-1. As a glossary author, I would like to add a term and definition to the system so I can continually grow our
-knowledge base of terms.
-2. As a glossary author, I would like to edit a term so I can fix mistakes and update definitions.
-3. As a glossary author, I would like to remove terms that I no longer feel are necessary or valid.
-4. As a glossary author, I would like to view the alphabetically sorted list of terms and definitions so I can find a
-particular term quickly.
-Acceptance Criteria
-• Should have full CRUD operations
-• Should show terms sorted alphabetically
-• Existing terms should be visible when the application starts
