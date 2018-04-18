@@ -1,21 +1,11 @@
 # BarnardosPuzzles
 
 Code Competency Puzzles
+
 Introduction
-Your first step in the Barnardos recruitment process is to demonstrate your understanding of writing code in C#.
 You are given the choice of solving either a set of three small puzzles ("Choice A") or solving one larger puzzle
 ("Choice B").
-When writing your code, please be mindful of the following:
-• Your code should be production ready.
-• Your code should be understandable and maintainable by other developers.
-• Your code should be robust and handle error situations.
-• Your code should be bug free, compile and work.
-• Your code should include unit tests, you may use a unit test framework of your choice (MSTest, NUnit,
-XUnit, MbUnit, etc)
-Code must be submitted in ZIP format and should contain the source code for one choice only (i.e. no binaries,
-packages, test artifacts, etc). When you have completed your choice of puzzle(s), forward the ZIP file along to
-Barnardos.
-Good luck! And thank you for your interest in a position with Barnardos.
+
 Choice A - Puzzle One – Reverse Words
 Write a function to reverse the words in a string, for example “cat and dog” becomes “tac dna god”.
 t a C d n a g o d
@@ -26,12 +16,16 @@ Your code
 • Should treat punctuation characters as part of the word
 • Is only required to deal with standard English characters. Unicode support is not required.
 • Should be your own code and should not use any built-in .NET string manipulation calls.
+
+
 Choice A - Puzzle Two – Linked list
 Write a function that would return the 5th element from the tail (or end) of a singly linked list of integers.
 For example, given the list 2 -> 3 -> 4 ->5 -> 6 -> 7 -> 8 -> 9 -> 10 -> 11 your function would return 7.
 Your code
 • Should return the 5th element from the tail in a single pass.
 • Should be your own code and should not use any built-in .NET collection components.
+
+
 Choice A - Puzzle Three - Triangles
 Write a function that receives three integer inputs for the lengths of the sides of a triangle and returns one of four
 values to determine the triangle type: scalene, isosceles, equilateral or error.
@@ -41,6 +35,8 @@ Isosceles
 Two equal sides
 Scalene
 No equal sides
+
+
 Choice B - Glossary
 In this puzzle, you are required to store and display a list of words and descriptions to build a glossary of terms
 into a persistent data store. Whilst this puzzle is expected to take longer to complete than the Choice A puzzles it
