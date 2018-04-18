@@ -1,0 +1,25 @@
+﻿<Window x:Class="BarnardosPuzzles.UI.TrianglesView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStartupLocation="CenterScreen" 
+        Title="Barnardos Puzzles -Triangles" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Please insert the three triangle sides length and click Get Triangel Type button to retrieve the triangle type" TextWrapping="Wrap" />
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <TextBlock Text="X" Width="35" Height="20"  TextAlignment="Center" />
+            <TextBox x:Name="XTextBox" Width="35" Height="20" />
+            <TextBlock Text="Y" Width="35" Height="20" TextAlignment="Center"  />
+            <TextBox x:Name="YTextBox" Width="35" Height="20"  />
+            <TextBlock Text="Z" Width="35" Height="20" TextAlignment="Center" />
+            <TextBox x:Name="ZTextBox" Width="35" Height="20"  />
+
+        </StackPanel>
+
+        <Button x:Name="CalculateButton" Grid.Row="2" Content="Get Triangle Type" 
+                Click="CalculateButtonClick" />
+    </Grid>
+</Window>

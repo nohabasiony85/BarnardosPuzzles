@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnardosPuzzles.UI", "BarnardosPuzzles.UI\BarnardosPuzzles.UI.csproj", "{87850711-705D-4995-B894-8535900342E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnardosPuzzles.Core", "BarnardosPuzzles.Core\BarnardosPuzzles.Core.csproj", "{3840F282-CA86-4BFF-B1BD-60AEF5CF106B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnardosPuzzles.Core.Tests", "BarnardosPuzzles.Core.Tests\BarnardosPuzzles.Core.Tests.csproj", "{47888CD7-8FCC-4CAA-90CF-A7427A2656B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87850711-705D-4995-B894-8535900342E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87850711-705D-4995-B894-8535900342E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87850711-705D-4995-B894-8535900342E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87850711-705D-4995-B894-8535900342E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3840F282-CA86-4BFF-B1BD-60AEF5CF106B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3840F282-CA86-4BFF-B1BD-60AEF5CF106B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3840F282-CA86-4BFF-B1BD-60AEF5CF106B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3840F282-CA86-4BFF-B1BD-60AEF5CF106B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47888CD7-8FCC-4CAA-90CF-A7427A2656B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47888CD7-8FCC-4CAA-90CF-A7427A2656B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47888CD7-8FCC-4CAA-90CF-A7427A2656B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47888CD7-8FCC-4CAA-90CF-A7427A2656B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

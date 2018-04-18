@@ -1,0 +1,18 @@
+﻿<Window x:Class="BarnardosPuzzles.UI.ReverseWordsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStartupLocation="CenterScreen" 
+
+        Title="Barnardos Puzzles - Reverse Words" Height="300" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Please write a text in the left text box and click the Convert button to view the reversed text in the right text box" TextWrapping="Wrap" />
+        <StackPanel Grid.Row="1">
+            <TextBox x:Name="SourceTextBox" Height="50" TextWrapping="Wrap" Width="450" />
+            <Button x:Name="ConvertButton" Content="Convert" Click="ConvertButtonClick" Margin="21,0" />
+            <TextBox x:Name="DestinationTextBox" Height="50" TextWrapping="Wrap" Width="450" />
+        </StackPanel>
+    </Grid>
+</Window>
